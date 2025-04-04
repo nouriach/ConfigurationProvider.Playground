@@ -4,7 +4,7 @@ namespace ConfigurationProvider.Playground.Extensions;
 
 public static class ApiExtensions
 {
-    public static ApiConfigurationSource AddApiConfiguration(
+    public static IConfigurationBuilder AddApiConfiguration(
         this IConfigurationBuilder builder, Action<ApiConfigurationSource> configure)
     {
         var source = new ApiConfigurationSource();
@@ -12,6 +12,6 @@ public static class ApiExtensions
         configure(source);
   
         builder.Add(source);
-        return source;
+        return builder;
     } 
 }

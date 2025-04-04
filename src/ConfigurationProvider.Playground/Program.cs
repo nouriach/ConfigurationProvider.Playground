@@ -1,12 +1,11 @@
-﻿using ConfigurationProvider.Playground.Configuration;
-using ConfigurationProvider.Playground.Extensions;
+﻿using ConfigurationProvider.Playground.Extensions;
 
 var builder = WebApplication.CreateBuilder();
 
 // configure your app
 
 var uri = builder.Configuration.GetValue<string>("BreweryApi:Uri");
-var apiConfigSource = builder.Configuration.AddApiConfiguration(c =>
+builder.Configuration.AddApiConfiguration(c =>
 {
     c.RequestBaseUrl = uri ?? string.Empty;
     c.Optional = false;

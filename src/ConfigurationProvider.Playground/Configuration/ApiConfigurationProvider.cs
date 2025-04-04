@@ -16,7 +16,6 @@ public class ApiConfigurationProvider : Microsoft.Extensions.Configuration.Confi
     {
         try
         {
-            // ar httpRequest = new HttpRequestMessage(HttpMethod.Get, $"{_apiConfigurationSource.RequestBaseUrl}?per_page=5");
             var url = $"{_apiConfigurationSource.RequestBaseUrl}?per_page=5";
 
             using var client = new HttpClient();
