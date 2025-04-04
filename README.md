@@ -18,6 +18,8 @@ This app is using .NET 8.
 
 To monitor the code flow, run the app in debug mode and set breakpoints at key points of interest. The console logs will offer additional context.
 
+Once the app starts, the user can validate that the config variables have been set by hitting this endpoint: /allowedOrigins.
+
 ## Dev Notes 🗒️
 
 When building a new custom Configuration Provider, there are two main class: `IConfigurationSource` & `ConfigurationProvider` that need to be implemented.
