@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/ConfigurationProvider.Playground.props" />
+</Project>
