@@ -53,10 +53,8 @@ safely or falls back to default configuration.
 
 ## Resources 📚
 
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Implement a Custom Configuration Provider in .NET 7](https://medium.com/@gokerakce/implement-a-custom-configuration-provider-in-net-7-c0a195dcd05f)
+- [Adding RESTful API Configuration Provider For Our ASP.NET Core Application](https://www.csharp.com/article/adding-restful-api-configuration-provider-for-our-asp-net-core-application/)
+- [IConfigurationSource Interface](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfigurationsource?view=net-9.0-pp)
+- [Custom Configuration Provider in .NET: Step-by-Step Guide](https://medium.com/@vosarat1995/custom-configuration-provider-in-net-step-by-step-guide-3d8a3a8f7203)
+- [SQL Server as a Configuration Provider | IConfiguration with a Database](https://www.youtube.com/watch?v=gq4wR0lCz8g)
