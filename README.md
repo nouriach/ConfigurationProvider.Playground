@@ -9,7 +9,7 @@ without hardcoding values into the application.
 
 ## Read the article 📰
 
-> [Dynamic CORS Configuration in .NET Using Custom Configuration Provider]()
+> [Dynamic CORS Configuration in .NET Using Custom Configuration Provider](https://medium.com/the-tech-collective/dynamic-cors-configuration-in-net-using-a-custom-configuration-provider-707adbbc3f94)
 
 ## User Instructions 🔖
 
